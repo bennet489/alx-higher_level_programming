@@ -51,8 +51,6 @@
 #            107 LOAD_CONST               0 (None)
 #            110 RETURN_VALUE
 #
-# (C) 2022 Igbinijesu Samuel, Lagos, Nigeria
-# email igbinijesusamuel@gmail.com
 # -----------------------------------------------------------
 
 

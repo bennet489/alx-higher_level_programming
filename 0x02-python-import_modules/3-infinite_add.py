@@ -3,9 +3,6 @@
 # Python program that:
 # demonstrates how to print the result of the addition of all
 # commandline arguments
-#
-# (C) 2022 Igbinijesu Samuel, Lagos, Nigeria
-# email igbinijesusamuel@gmail.com
 # -----------------------------------------------------------
 
 # Import sys module to access argv

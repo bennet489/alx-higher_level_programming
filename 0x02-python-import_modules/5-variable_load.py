@@ -2,10 +2,7 @@
 # -----------------------------------------------------------
 # Python program that:
 # demonstrates how to import the variable a from the file
-# variable_load_5.py and prints its value.
-#
-# (C) 2022 Igbinijesu Samuel, Lagos, Nigeria
-# email igbinijesusamuel@gmail.com
+# variable_load_5.py and prints its value
 # -----------------------------------------------------------
 
 # Import a from file

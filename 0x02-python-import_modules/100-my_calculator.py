@@ -3,9 +3,6 @@
 # Python program that:
 # demonstrates how to import the variable a from the file
 # variable_load_5.py and handles basic operations
-#
-# (C) 2022 Igbinijesu Samuel, Lagos, Nigeria
-# email igbinijesusamuel@gmail.com
 # -----------------------------------------------------------
 
 # Import sys module to access argv
