@@ -1,5 +1,8 @@
 #!/usr/bin/node
-const callMeMoby = require('./101-call_me_moby').callMeMoby;
-callMeMoby(3, function () {
-	console.log('C is fun');
-});
+module.exports = {
+  callMeMoby: function (n, f) {
+    for (let i = 0; i < n; i++) {
+      f();
+    }
+  }
+};
