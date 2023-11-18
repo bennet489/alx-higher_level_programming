@@ -7,12 +7,3 @@ CREATE TABLE IF NOT EXISTS states (
     PRIMARY KEY (id)
 );
 INSERT INTO states (name) VALUES ("California"), ("Arizona"), ("Texas"), ("New York"), ("Nevada");
-
-guillaume@ubuntu:~/0x0F$ cat 0-select_states.sql | mysql -uroot -p
-Enter password: 
-guillaume@ubuntu:~/0x0F$ ./0-select_states.py root root hbtn_0e_0_usa
-(1, 'California')
-(2, 'Arizona')
-(3, 'Texas')
-(4, 'New York')
-(5, 'Nevada')
