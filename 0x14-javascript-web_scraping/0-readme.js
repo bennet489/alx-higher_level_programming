@@ -2,7 +2,7 @@
 const process = require('process');
 const filesystem = require('fs');
 
-let file = process.argv[2];
+const file = process.argv[2];
 
 filesystem.readFile(file, 'utf8', function (err, data) {
   if (err != null) {
@@ -11,3 +11,4 @@ filesystem.readFile(file, 'utf8', function (err, data) {
     process.stdout.write(data);
   }
 });
+
