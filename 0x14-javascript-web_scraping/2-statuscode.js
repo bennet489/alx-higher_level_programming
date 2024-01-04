@@ -1,12 +1,10 @@
 #!/usr/bin/node
-const process = require('process');
-const filesystem = require('fs');
+// displays response status code of a GET request
+const request = require('request');
 
-const file = process.argv[2];
-const text = process.argv[3];
-
-filesystem.writeFile(file, text, 'utf8', function (err, data) {
-  if (err != null) {
-    console.log(err);
+request(process.argv[2], function (error, response, body) {
+  if (error) {
+    console.error(error);
   }
+  console.log('code:', response && response.statusCode);
 });
